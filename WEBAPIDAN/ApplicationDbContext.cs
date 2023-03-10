@@ -12,7 +12,7 @@ namespace WEBAPIDAN
         }
         public DbSet<Teclado> Teclados { get; set; }
         public DbSet<Modelo> Modelos { get; set; }
-       // public DbSet<Marca> Marcas { get; set; } 
+        public DbSet<Marca> Marcas { get; set; } 
 
 
     }
