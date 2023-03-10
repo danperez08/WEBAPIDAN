@@ -4,11 +4,10 @@ using WEBAPIDAN.Entidades;
 
 namespace WEBAPIDAN.Controllers
 {
-    public class ModeloController
-    {
+    [ApiController]
 
-        [ApiController]
-        [Route("api/modelo")]
+    [Route("api/modelos")]
+    
         public class ModelosController : ControllerBase
         {
 
@@ -69,4 +68,3 @@ namespace WEBAPIDAN.Controllers
             }
         }
     }
-}

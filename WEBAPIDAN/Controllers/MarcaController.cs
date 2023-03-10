@@ -4,10 +4,11 @@ using WEBAPIDAN.Entidades;
 
 namespace WEBAPIDAN.Controllers
 {
-    public class MarcaController
-    {
-        [ApiController]
-        [Route("api/marca")]
+    [ApiController]
+
+    [Route("api/marcas")]
+  
+        
         public class MarcasController : ControllerBase
         {
 
@@ -68,4 +69,4 @@ namespace WEBAPIDAN.Controllers
             }
         }
     }
-}
+
